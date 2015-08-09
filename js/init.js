@@ -486,10 +486,10 @@ function getFacebookPageFeeds(){
 
 					shule_details.appendChild(shule_author);
 
-					if(data.data[c].description){
+					if(data.data[c].message){
 						var shule_body=_("div");
 						shule_body.setAttribute("class", "shule_body");
-						shule_body.innerHTML=data.data[c].description;
+						shule_body.innerHTML=data.data[c].message;
 						shule_details.appendChild(shule_body);
 					}
 
